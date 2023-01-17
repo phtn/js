@@ -84,13 +84,6 @@ function whatIsInAName(collection, source) {
     return keys.every(
       (key) => item.hasOwnProperty(key) && item[key] === source[key]
     );
-    // for (let index in keys) {
-    //   if (item.hasOwnProperty(keys[index])) {
-    //     // return true;
-    //     return item[keys[index]] === source[keys[index]];
-    //   }
-    //   return false;
-    // }
   });
 
   return filtered;

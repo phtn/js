@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node ./scraping.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "nightmare": "^3.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
